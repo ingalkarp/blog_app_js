@@ -1,0 +1,165 @@
+@import './mixins/admin-mixin';
+
+
+.navbar{
+    // background: linear-gradient(#f1515e,);
+    background: linear-gradient(135deg,hsla(197,100%,63,0.8)30%,hsla(294,100%,55%,1)78%);
+    
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+}
+
+#res-icon{
+    width: 3.5rem;
+    height: 4.5rem;
+}
+
+#nav-sitename{
+    margin-top: 1.4rem;
+    font-weight: bold;
+    background-image: linear-gradient(to left,#e81cff, #e81cff, indigo,  blue);
+    //background-image: linear-gradient(to left,  #92E7ED,#92E7ED, indigo,  blue);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+ 
+.my-btn{
+    background-color: #0b3866;
+}
+   /* When the input field gets focus,
+        change its width to 100% */
+input[type=text]:focus {
+    width: 70%;
+}
+ 
+#list{
+   font-size:  1.5em;
+   margin-left: 90px;
+}
+
+.main_content{
+    height: $val*70;
+    //background: url('../pictures/page.jpg');
+    & #heading{
+        text-align: center;
+        margin-top: 1.4rem;
+        font-weight: bold;
+        background-image: linear-gradient(to left,#e81cff,  indigo,  blue);
+        //background-image: linear-gradient(to left,  #92E7ED,#92E7ED, indigo,  blue);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    & .blank-template img{
+        width: $val*15;
+        height: $val*20;
+        border-radius: $val;
+        border: 1px solid grey;
+    }
+    & #addedtemplates{
+        display: flex;
+        flex-direction: row;
+        
+        & #newtemplate{
+            width: $val*15;
+            height: $val*20;
+            border-radius: $val;
+            border: 2px solid #0b3866;
+            display: flex;
+            flex-direction: row;
+            margin-left: 4rem;
+        }
+    }
+    #imageField{
+        display: none;
+        visibility: none;
+    }
+}
+
+.mybtn{
+    margin-top: 2px;
+    margin-left: 100px;
+  }
+
+  .deletebtn{
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: #d9534f;
+  }
+
+// #uploadedtemp{
+//     width: 2rem;
+//     height: 2rem;
+//     justify-content: center;
+//     overflow: hidden;
+//     overflow-y: scroll;
+// }
+
+#tblTemplate{
+    margin-left: 5rem;
+    & #cardcommon{
+        margin-top: 4.2rem;
+        overflow: auto;
+        height: 500px;
+    }
+    & #imgTempl{
+        border-radius: 10px;
+        border: solid 2px violet;
+    }
+}
+
+
+  
+.clientbtn{
+    margin-top: 4px;
+    margin-left: 100px;
+}
+
+.uploadbtn{margin-top: 2px;
+    background-color: #0275d8;
+    width: 80px;
+    border-radius: 7px;
+  }
+
+.resumes{
+   display: list-item; 
+   display: none;   
+}
+
+.style-resume{
+    background-color: #E8E8E8;
+    overflow-y: scroll;
+    height: 85vh;
+}
+
+.dropdown-menu{
+    background-color: #E8E8E8;
+    display: none;
+    position: relative;
+    width: 100%;
+    overflow: scroll;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    & a{
+        background-color: #E8E8E8;
+        &:hover {
+            background-color: teal;
+        }
+    }
+}
+
+//by soham admin graphs and chart of total downloads
+#total{
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5rem;
+    padding: 4rem auto;
+    margin: 5rem auto;
+    text-align: center;
+    border: 2px solid linear-gradient(135deg, rgba(66, 202, 255, 0.8) 30%, #e81aff 78%);
+    border-radius: 1rem;
+  }

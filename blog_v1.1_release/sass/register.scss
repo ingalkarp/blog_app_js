@@ -1,0 +1,37 @@
+@import './mixins/login-mixin';
+
+body{
+    @include mybackgroundColor($backgroundColorbody,$height,$buttoncolor,$border-radius);
+    background: $backgroundColorbody;
+    height: $height;
+    form{
+        border-radius: $border-radius;
+        .form-control{
+            border-radius: $border-radius;
+            border:1px solid;
+        }
+        .form-control:hover{
+            background: rgb(192, 207, 189);
+        }
+  
+        #button{
+            border-radius: $border-radius;
+        }
+        #button:hover{
+            background: $buttoncolor;
+            color:black;
+        }
+    }
+  
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+      color:rgb(28, 236, 167) ;
+    }
+  }
+
+
+
+ 
+    

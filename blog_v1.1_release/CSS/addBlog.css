@@ -1,0 +1,17 @@
+form{
+  height: 700px;
+  width: 200%;
+  border: 1px solid gray;
+  justify-content: space-evenly;
+
+}
+
+#blogContents{
+  display: flex;
+  flex-direction: row;
+}                      
+
+textarea{
+  width: 70%;
+  height: 70%;
+}

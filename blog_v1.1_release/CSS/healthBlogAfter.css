@@ -1,0 +1,54 @@
+
+    .imageAfter{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+
+
+
+.new-common{
+    margin-top: 25px;
+
+}
+
+.category{
+    width: 60%;
+    height: 35px;
+    margin-top: 10px;
+    font-size: larger;
+    text-align: center;
+    font-size: medium;
+    margin-left: 20px;
+    border-radius: 5px;
+
+
+
+}
+
+#addBlogBtn{
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+}
+
+.searchBtn{
+    height: 30px;
+    width: 60px;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.mycard-text{
+    font-size: 15px;
+    text-decoration-style: solid;
+}
+
+.details{
+    box-shadow: 10rem;
+    border: 10rem;
+}

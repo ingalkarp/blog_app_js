@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(-45deg, #EE7752, #e49db8, #23A6D5, #23D5AB);
+  height: 100vh;
+  border-radius: 10px;
+  background: #1ceca7;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #EE7752, #e49db8, #23A6D5, #23D5AB);
+  height: 100vh;
+}
+
+body form {
+  border-radius: 10px;
+}
+
+body form .form-control {
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+body form .form-control:hover {
+  background: #c0cfbd;
+}
+
+body form #button {
+  border-radius: 10px;
+}
+
+body form #button:hover {
+  background: #1ceca7;
+  color: black;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #1ceca7;
+}

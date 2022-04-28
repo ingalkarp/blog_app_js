@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "firstname": "rakesh",
+      "lastname": "kumar",
+      "email": "rakeshk@gmail.com",
+      "actor": "user",
+      "username": "rakesh",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "firstName": "mahesh",
+      "lastName": "kumar",
+      "email": "rakeshk@gmail.com",
+      "actor": "user",
+      "username": "mahesh",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "firstname": "Reetesh",
+      "lastname": "Jaiswal",
+      "email": "reeteshkumarj@cybage.com",
+      "actor": "user",
+      "username": "Reeteshkumarj",
+      "password": "123456",
+      "id": 2
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Best Laptop in 2020",
+      "image": "../pictures/dell_laptop.webp",
+      "category": "technology",
+      "likes": "1",
+      "comment": "",
+      "timestamp": " ",
+      "blogText": "Dell Inspiron 14 is a premium convertible laptop at a decent price. Good build quality with a responsive touchscreen. Battery life and display brightness are not great; however, the machine has upgradeable memory to 16 GB "
+    },
+    {
+      "id": "2",
+      "title": "Healthy diets for you",
+      "image": "../pictures/healthy_diet.jfif",
+      "category": "health",
+      "likes": "1",
+      "comment": "",
+      "timestamp": " ",
+      "blogText": "Dell Inspiron 14 is a premium convertible laptop at a decent price. Good build quality with a responsive touchscreen. Battery life and display brightness are not great; however, the machine has upgradeable memory to 16 GB "
+    },
+    {
+      "id": "3",
+      "title": "Idea to improve your lifestyle",
+      "image": "../pictures/lifestyle.jfif",
+      "category": "lifestyle",
+      "likes": "1",
+      "comment": "",
+      "timestamp": " ",
+      "blogText": "Dell Inspiron 14 is a premium convertible laptop at a decent price. Good build quality with a responsive touchscreen. Battery life and display brightness are not great; however, the machine has upgradeable memory to 16 GB "
+    },
+    {
+      "id": "4",
+      "title": "All latest technologies",
+      "image": "../pictures/technology.jpg",
+      "category": "technology",
+      "likes": "1",
+      "comment": "",
+      "timestamp": " ",
+      "blogText": "Dell Inspiron 14 is a premium convertible laptop at a decent price. Good build quality with a responsive touchscreen. Battery life and display brightness are not great; however, the machine has upgradeable memory to 16 GB "
+    },
+    {
+      "id": "5",
+      "title": "Mobiles under 20k",
+      "image": "../pictures/mobile.jfif",
+      "category": "technology",
+      "likes": "1",
+      "comment": "",
+      "timestamp": " ",
+      "blogText": "Dell Inspiron 14 is a premium convertible laptop at a decent price. Good build quality with a responsive touchscreen. Battery life and display brightness are not great; however, the machine has upgradeable memory to 16 GB "
+    },
+    {
+      "id": "6",
+      "title": "Exercises for you",
+      "image": "../pictures/exercise.jpg",
+      "category": "health",
+      "likes": "1",
+      "comment": "",
+      "timestamp": " ",
+      "blogText": "Dell Inspiron 14 is a premium convertible laptop at a decent price. Good build quality with a responsive touchscreen. Battery life and display brightness are not great; however, the machine has upgradeable memory to 16 GB "
+    },
+    {
+      "image": "../pictures/sports1.jfif",
+      "title": "sports 1",
+      "category": "health",
+      "blogText": " this is test sports",
+      "timestamp": "2022-02-22T12:24:06.054Z",
+      "id": "evqCklQ"
+    },
+    {
+      "image": "../pictures/sports1.jfif",
+      "title": "sports test1",
+      "category": "health",
+      "blogText": " sbsjbds sbdisbdisb jsbdsbdsb jsdbsjdbsjd jdbsjdb dbshhdbs ",
+      "timestamp": "2022-02-22T14:16:48.894Z",
+      "id": "9dJfjOQ"
+    }
+  ]
+}

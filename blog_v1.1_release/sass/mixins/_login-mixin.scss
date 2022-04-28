@@ -1,0 +1,13 @@
+$border-radius: 10px;
+$height: 100vh;
+$buttoncolor:rgb(28, 236, 167);
+$border-radius:10px;
+$backgroundColorbody:linear-gradient(-45deg,#EE7752,#e49db8,#23A6D5,#23D5AB);
+@mixin mybackgroundColor($backgroundColorbody,$height,$buttoncolor,$border-radius) {
+    background:$backgroundColorbody;
+    height: $height;
+    border-radius: $border-radius;
+    background: $buttoncolor;
+    border-radius: $border-radius;
+}
+
